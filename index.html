@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文情境寫作測驗</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>英文情境寫作測驗</h1>
+        <div id="writing-section">
+            <div id="timer-section">
+                <div id="timer">剩餘時間: 15:00</div>
+            </div>
+            <div id="question-section">
+                <h2>情境題目</h2>
+                <div id="situation-image"></div>
+                <div id="question-content"></div>
+            </div>
+            <div id="answer-section">
+                <h2>作答區 (至少50字)</h2>
+                <textarea id="answer-input" rows="10" placeholder="請在此輸入您的答案..."></textarea>
+                <div id="word-count">字數：0</div>
+            </div>
+            <div id="grammar-check-section" style="display: none;">
+                <h2>文法修改建議</h2>
+                <div id="grammar-suggestions"></div>
+                <div id="corrected-text"></div>
+            </div>
+            <div id="controls">
+                <button id="start-btn">開始作答</button>
+                <button id="submit-btn" disabled>提交答案</button>
+                <button id="next-btn" disabled>下一題</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+#writing-section {
+    margin-top: 20px;
+}
+
+#timer-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #dc3545;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#situation-image {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#situation-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#question-content {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#answer-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+#word-count {
+    text-align: right;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#grammar-check-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+#grammar-suggestions {
+    margin-bottom: 15px;
+}
+
+#corrected-text {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.hints {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.hints ul {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.hints li {
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+#controls {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#start-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#next-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+button:hover:not(:disabled) {
+    opacity: 0.9;
+}
